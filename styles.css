@@ -9,9 +9,9 @@ body {
 }
 
 header {
-  background: #007bff;
-  color: #fff;
-  padding: 1rem 0;
+    background: #b93234; /* 교색*/
+    color: #fff;
+    padding: 1rem 0;
 }
 
 h1 {
@@ -23,18 +23,33 @@ main {
 }
 
 .download-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #28a745;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #46515b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .download-button:hover {
-  background: #218838;
+  background: #b93234;
 }
+
+.bug_report-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #46515b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bug_report-button:hover {
+  background: #b93234;
+}
+
 
 textarea {
   width: 100%;
@@ -60,4 +75,10 @@ footer {
   background: #333;
   color: #fff;
   padding: 1rem 0;
+}
+hr {
+  border: 0;
+  height: 3px;
+  background-color: #000; /* 회색 선 */
+  margin: 20px 0; /* 위아래 간격 */
 }
