@@ -37,5 +37,17 @@ https://forms.gle/saGCq5Q1xFFjJszy9" class="bug_report-button" download>버그 �
     <p>&copy; 2024 세종끼리 beta test. All rights reserved.</p>
     <p>Made by MisterJerry</p>
   </footer>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isAndroid = userAgent.includes("android");
+
+    if (!isAndroid) {
+      alert("이 앱은 Android에서만 다운로드 및 실행이 가능합니다.");
+    }
+  });
+</script>
 </body>
 </html>
